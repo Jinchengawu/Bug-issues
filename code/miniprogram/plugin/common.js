@@ -9,11 +9,11 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/classCallCheck.js");
 
 
 var EventBus = function EventBus() {
-  Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(this, EventBus);
+  Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(this, EventBus);
 
   /**
    * 构造函数需要存储的 event 事件
@@ -161,10 +161,10 @@ function getRandwords() {
 "use strict";
 /* WEBPACK VAR INJECTION */(function(window) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return $w_store; });
 /* unused harmony export useCreateWgts */
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/slicedToArray.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/defineProperty.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/_react@17.0.2@react/cjs/react.production.min.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _eventBus__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./eventBus */ "./src/plugin/eventBus.js");
@@ -177,16 +177,16 @@ function getRandwords() {
 
 var WgtsStore = /*#__PURE__*/function () {
   function WgtsStore() {
-    Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(this, WgtsStore);
+    Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(this, WgtsStore);
 
-    Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(this, "wgts_store", {
+    Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(this, "wgts_store", {
       __cmp_map: {}
     });
 
-    Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(this, "self", null);
+    Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(this, "self", null);
   }
 
-  Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(WgtsStore, [{
+  Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(WgtsStore, [{
     key: "set",
     value: function set(key, val) {
       this.wgts_store[key] = val;
@@ -196,7 +196,7 @@ var WgtsStore = /*#__PURE__*/function () {
     key: "setCmp",
     value: function setCmp(type, key, val) {
       if (!this.wgts_store.__cmp_map[type]) {
-        this.wgts_store.__cmp_map[type] = Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])({}, key, val);
+        this.wgts_store.__cmp_map[type] = Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])({}, key, val);
       } else {
         this.wgts_store.__cmp_map[type][key] = val;
       }
@@ -259,7 +259,7 @@ function useCreateWgtsFn() {
 
   //console.log('useCreateWgtsFn----value----->', value)
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(value),
-      _useState2 = Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(_useState, 2),
+      _useState2 = Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(_useState, 2),
       wgt_value = _useState2[0],
       _setValue = _useState2[1];
 

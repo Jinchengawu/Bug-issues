@@ -16,12 +16,12 @@ require("../../taro");
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Avatar; });
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createSuper.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/defineProperty.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/_react@17.0.2@react/cjs/react.production.min.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _tarojs_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @tarojs/components */ "./node_modules/_@tarojs_plugin-platform-weapp@3.3.9@@tarojs/plugin-platform-weapp/dist/components-react.js");
@@ -49,24 +49,24 @@ var _dec, _class;
 
 
 var Avatar = (_dec = Object(_hoc_withInformation__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"])(), _dec(_class = /*#__PURE__*/function (_Component) {
-  Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(Avatar, _Component);
+  Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(Avatar, _Component);
 
-  var _super = Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(Avatar);
+  var _super = Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(Avatar);
 
   function Avatar(props) {
     var _this;
 
-    Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(this, Avatar);
+    Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(this, Avatar);
 
     _this = _super.call(this, props);
 
-    Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(_this), "propsDefault", {
+    Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(_this), "propsDefault", {
       tData2: '233'
     });
 
-    Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(_this), "className", 'Avatar');
+    Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(_this), "className", 'Avatar');
 
-    console.log('Avatar', Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(_this));
+    console.log('Avatar', Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(_this));
     console.log('tData', props);
     console.log('$w_store', _wgtsStore__WEBPACK_IMPORTED_MODULE_9__[/* $w_store */ "a"]);
     _this.state = {
@@ -76,7 +76,7 @@ var Avatar = (_dec = Object(_hoc_withInformation__WEBPACK_IMPORTED_MODULE_10__[/
     return _this;
   }
 
-  Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(Avatar, [{
+  Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(Avatar, [{
     key: "render",
     value: function render() {
       var tData2 = this.state.tData2;
@@ -149,12 +149,12 @@ var inst = Component(Object(_tarojs_runtime__WEBPACK_IMPORTED_MODULE_2__["create
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return withInformation; });
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createSuper.js");
 /* harmony import */ var _wgtsStore__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../wgtsStore */ "./src/plugin/wgtsStore.js");
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./utils */ "./src/plugin/hoc/utils.js");
 
@@ -181,21 +181,21 @@ function getId(type) {
 function withInformation(targetCtx) {
   return function (Component) {
     return /*#__PURE__*/function (_Component) {
-      Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(withInformationComponent, _Component);
+      Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(withInformationComponent, _Component);
 
-      var _super = Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(withInformationComponent);
+      var _super = Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(withInformationComponent);
 
       function withInformationComponent(props) {
         var _this;
 
-        Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(this, withInformationComponent);
+        Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(this, withInformationComponent);
 
         _this = _super.call(this, props);
-        console.log('withInformationComponent:this', Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(_this));
+        console.log('withInformationComponent:this', Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(_this));
         console.log('withInformationComponent:props', _this.props);
-        console.log('withInformationComponent:state', Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(_this));
+        console.log('withInformationComponent:state', Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(_this));
 
-        var _assertThisInitialize = Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(_this),
+        var _assertThisInitialize = Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(_this),
             className = _assertThisInitialize.className,
             propsDefault = _assertThisInitialize.propsDefault;
 
@@ -207,10 +207,10 @@ function withInformation(targetCtx) {
             var key = className + '_' + i + '_' + id; //getRandwords()
 
             _wgtsStore__WEBPACK_IMPORTED_MODULE_6__[/* $w_store */ "a"].addListener(key, function (val) {
-              console.log('change_this', Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(_this));
+              console.log('change_this', Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(_this));
               console.log('withInformationComponent:change', i, key, val);
 
-              _this.setState(Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({}, i, val));
+              _this.setState(Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({}, i, val));
             });
           };
 
@@ -223,7 +223,7 @@ function withInformation(targetCtx) {
         return _this;
       }
 
-      Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(withInformationComponent, [{
+      Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(withInformationComponent, [{
         key: "componentDidUpdate",
         value: function componentDidUpdate(prevProps) {
           var _this2 = this;

@@ -10,10 +10,10 @@
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Index; });
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var _Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/_@babel_runtime@7.15.4@@babel/runtime/helpers/esm/createSuper.js");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @tarojs/taro */ "./node_modules/_@tarojs_taro@3.3.9@@tarojs/taro/index.js");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_tarojs_taro__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/_react@17.0.2@react/cjs/react.production.min.js");
@@ -36,17 +36,17 @@
 var myPluginInterface = _tarojs_taro__WEBPACK_IMPORTED_MODULE_4___default.a.requirePlugin('myPlugin');
 
 var Index = /*#__PURE__*/function (_Component) {
-  Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(Index, _Component);
+  Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(Index, _Component);
 
-  var _super = Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(Index);
+  var _super = Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(Index);
 
   function Index() {
-    Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(this, Index);
+    Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(this, Index);
 
     return _super.apply(this, arguments);
   }
 
-  Object(_Users_wangzhanyuan_code_taro_project_test_wxPlugin_wxplugin_test_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(Index, [{
+  Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(Index, [{
     key: "componentDidMount",
     value: function componentDidMount() {
       myPluginInterface.sayHello();
@@ -101,58 +101,9 @@ var Index = /*#__PURE__*/function (_Component) {
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+__webpack_require__(/*! object-assign */ "./node_modules/_object-assign@4.1.1@object-assign/index.js");var f=__webpack_require__(/*! react */ "./node_modules/_react@17.0.2@react/cjs/react.production.min.js"),g=60103;exports.Fragment=60107;if("function"===typeof Symbol&&Symbol.for){var h=Symbol.for;g=h("react.element");exports.Fragment=h("react.fragment")}var m=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,n=Object.prototype.hasOwnProperty,p={key:!0,ref:!0,__self:!0,__source:!0};
+function q(c,a,k){var b,d={},e=null,l=null;void 0!==k&&(e=""+k);void 0!==a.key&&(e=""+a.key);void 0!==a.ref&&(l=a.ref);for(b in a)n.call(a,b)&&!p.hasOwnProperty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps,a)void 0===d[b]&&(d[b]=a[b]);return{$$typeof:g,type:c,key:e,ref:l,props:d,_owner:m.current}}exports.jsx=q;exports.jsxs=q;
 
-
-__webpack_require__(/*! object-assign */ "./node_modules/_object-assign@4.1.1@object-assign/index.js");
-
-var f = __webpack_require__(/*! react */ "./node_modules/_react@17.0.2@react/cjs/react.production.min.js"),
-    g = 60103;
-
-exports.Fragment = 60107;
-
-if ("function" === typeof Symbol && Symbol.for) {
-  var h = Symbol.for;
-  g = h("react.element");
-  exports.Fragment = h("react.fragment");
-}
-
-var m = f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,
-    n = Object.prototype.hasOwnProperty,
-    p = {
-  key: !0,
-  ref: !0,
-  __self: !0,
-  __source: !0
-};
-
-function q(c, a, k) {
-  var b,
-      d = {},
-      e = null,
-      l = null;
-  void 0 !== k && (e = "" + k);
-  void 0 !== a.key && (e = "" + a.key);
-  void 0 !== a.ref && (l = a.ref);
-
-  for (b in a) {
-    n.call(a, b) && !p.hasOwnProperty(b) && (d[b] = a[b]);
-  }
-
-  if (c && c.defaultProps) for (b in a = c.defaultProps, a) {
-    void 0 === d[b] && (d[b] = a[b]);
-  }
-  return {
-    $$typeof: g,
-    type: c,
-    key: e,
-    ref: l,
-    props: d,
-    _owner: m.current
-  };
-}
-
-exports.jsx = q;
-exports.jsxs = q;
 
 /***/ }),
 

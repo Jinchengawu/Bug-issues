@@ -90,7 +90,7 @@
 </template>
 
 <template name="tmpl_0_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -158,7 +158,7 @@
 </template>
 
 <template name="tmpl_1_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -226,7 +226,7 @@
 </template>
 
 <template name="tmpl_2_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -294,7 +294,7 @@
 </template>
 
 <template name="tmpl_3_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -354,7 +354,7 @@
 </template>
 
 <template name="tmpl_4_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -414,7 +414,7 @@
 </template>
 
 <template name="tmpl_5_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -466,7 +466,7 @@
 </template>
 
 <template name="tmpl_6_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -518,7 +518,7 @@
 </template>
 
 <template name="tmpl_7_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -570,7 +570,7 @@
 </template>
 
 <template name="tmpl_8_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -622,7 +622,7 @@
 </template>
 
 <template name="tmpl_9_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -674,7 +674,7 @@
 </template>
 
 <template name="tmpl_10_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -726,7 +726,7 @@
 </template>
 
 <template name="tmpl_11_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -778,7 +778,7 @@
 </template>
 
 <template name="tmpl_12_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -830,7 +830,7 @@
 </template>
 
 <template name="tmpl_13_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
@@ -882,7 +882,7 @@
 </template>
 
 <template name="tmpl_14_avatar">
-  <avatar tData="{{i.tData}}"  id="{{i.uid}}">
+  <avatar bindStore="eh" id="{{i.id}}" tData="{{i.tData}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">
       <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
     </block>
