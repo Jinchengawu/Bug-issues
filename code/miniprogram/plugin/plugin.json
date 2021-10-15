@@ -1,0 +1,9 @@
+{
+  "publicComponents": {
+    "custom-wrapper": "custom-wrapper"
+  },
+  "pages": {
+    "list": "pages/list/list"
+  },
+  "main": "index.js"
+}

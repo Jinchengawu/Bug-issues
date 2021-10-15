@@ -1,0 +1,9 @@
+{
+  "publicComponents": {
+    
+  },
+  "pages": {
+    "list": "pages/list/list"
+  },
+    "main": "index.js"
+  }

@@ -1,0 +1,1 @@
+{"version":3,"file":"plugin/index.js","sources":["webpack:///._src_plugin_index.js"],"sourcesContent":["export function sayHello () {\n  console.log('Hello plugin!')\n}\n\nexport const answer = 42\n"],"mappings":";;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AACA;AACA;AAEA;;;;A","sourceRoot":""}

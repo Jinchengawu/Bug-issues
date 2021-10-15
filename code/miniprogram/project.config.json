@@ -1,0 +1,15 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "pluginRoot": "plugin/",
+  "compileType": "plugin",
+  "appid": "wx36b2f1a7f11376a6",
+  "projectname": "miniapp-plugins",
+  "description": "miniapp-plugins",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false,
+    "newFeature": true
+  }
+}
