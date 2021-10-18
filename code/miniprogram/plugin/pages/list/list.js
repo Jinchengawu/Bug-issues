@@ -70,6 +70,11 @@ var Index = (_dec = Object(_hoc_withInformationPost__WEBPACK_IMPORTED_MODULE_10_
       }, {
         name: 'C',
         value: '3'
+      }],
+      cmpList: [{
+        val: 222
+      }, {
+        val: 333
       }]
     });
 
@@ -77,18 +82,41 @@ var Index = (_dec = Object(_hoc_withInformationPost__WEBPACK_IMPORTED_MODULE_10_
     setInterval(function () {
       // $w_store.set('tData',t++)
       // console.log('setInterval',t)
-      _wgtsStore__WEBPACK_IMPORTED_MODULE_9__[/* $w_store */ "a"].showEvent();
-      _wgtsStore__WEBPACK_IMPORTED_MODULE_9__[/* $w_store */ "a"].emit('Avatar_tData2', t++);
+      _wgtsStore__WEBPACK_IMPORTED_MODULE_9__[/* $w_store */ "a"].showEvent(); // $w_store.emit('Avatar_tData2',t++) 
+
+      _this.setState({
+        t: t
+      });
     }, 3000);
     return _this;
   }
 
   Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(Index, [{
+    key: "testCall",
+    value: function testCall() {
+      var _console;
+
+      for (var _len = arguments.length, arg = new Array(_len), _key = 0; _key < _len; _key++) {
+        arg[_key] = arguments[_key];
+      }
+
+      (_console = console).log.apply(_console, ['testCall'].concat(arg));
+    }
+  }, {
     key: "render",
     value: function render() {
+      var _this2 = this;
+
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_7__[/* View */ "b"], {
-        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])("avatar", {
-          bindStore: this.bindOnly('avatar', 0),
+        children: [this.state.cmpList.map(function (cmp, index) {
+          return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])("avatar", {
+            bindStore: _this2.bindOnly('Avatar', index, {
+              'tData2': cmp.val,
+              'testCall': _this2.testCall
+            })
+          });
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])("avatar", {
+          bindStore: this.bindOnly('Avatar', 0, ['tData2']),
           id: "avatar1",
           tData: 222
         }), this.state.list.map(function (item) {
@@ -96,8 +124,8 @@ var Index = (_dec = Object(_hoc_withInformationPost__WEBPACK_IMPORTED_MODULE_10_
             name: item.name,
             value: item.value
           }, item.name);
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])("avatar", {
-          bindStore: this.bindOnly('avatar', 1),
+        }), this.state.t, /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])("avatar", {
+          bindStore: this.bindOnly('Avatar', 1, ['tData2']),
           id: "avatar2",
           tData: 222
         })]
@@ -209,7 +237,43 @@ var ListItem = /*#__PURE__*/function (_Component) {
 
 
 
- //父组件信道
+ // 初始化子组件
+
+function initPropsVal(target, key, val) {} // 绑定普通字段
+
+
+function doBindKey(key, val, ctx) {
+  var post = ctx.setState;
+
+  ctx.setState = function () {
+    var _console;
+
+    for (var _len = arguments.length, arg = new Array(_len), _key = 0; _key < _len; _key++) {
+      arg[_key] = arguments[_key];
+    }
+
+    post.apply.apply(post, [ctx].concat(arg));
+
+    (_console = console).log.apply(_console, ['bindPropsMap-setState'].concat(arg));
+
+    console.log('bindPropsMap-key', key);
+  };
+} // 绑定回调方法
+
+
+function doBindFun(key, val, target) {}
+
+function bindPropsMap(maps, ctx) {
+  var keys = Object.keys(maps);
+  var values = Object.values(maps);
+  keys.forEach(function (d, idx) {
+    return doBindKey(d, values[idx], ctx);
+  });
+  values.forEach(function (d, idx) {
+    if (typeof d == 'function') {}
+  });
+} //父组件信道
+
 
 function withInformationPost(targetCtx) {
   return function (Component) {
@@ -227,15 +291,16 @@ function withInformationPost(targetCtx) {
         var post = _this.setState;
 
         _this.setState = function () {
-          for (var _len = arguments.length, arg = new Array(_len), _key = 0; _key < _len; _key++) {
-            arg[_key] = arguments[_key];
+          for (var _len2 = arguments.length, arg = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+            arg[_key2] = arguments[_key2];
           }
 
           post.apply.apply(post, [Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(_this)].concat(arg));
         }; // 本地存储一个 页面 -> 同类型组件 下表数组；用来缓存渲染历史；防止多次创建;
 
 
-        _this.state['__cmpList'] = {}; // 
+        _this.state['__cmpList'] = {};
+        _this.state['__propsMap'] = {}; // 
 
         return _this;
       } // 要保证 页面多次加载 缓存不冲突；
@@ -243,18 +308,23 @@ function withInformationPost(targetCtx) {
 
       Object(_Users_wangzhanyuan_code_bug_issues1_Bug_issues_code_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(withInformationPostComponent, [{
         key: "bindOnly",
-        value: function bindOnly(type, index) {
-          console.log('生产id', Object(_utils__WEBPACK_IMPORTED_MODULE_6__[/* getRandwords */ "a"])());
+        value: function bindOnly(type, index, bindProps) {
+          var key = Object(_utils__WEBPACK_IMPORTED_MODULE_6__[/* getRandwords */ "a"])();
+          console.log('生产id', type, '_' + key + '_', index);
           var __cmpList = this.state['__cmpList'][type];
-          if (__cmpList && __cmpList.find(index) > -1) return;
+          var __propsMap = this.state['__propsMap'][type];
+          console.log('__cmpList', __cmpList);
+          console.log('__propsMap', __propsMap);
+          if (__cmpList && __cmpList.indexOf(index) > -1) return;
           if (!__cmpList) this.state['__cmpList'][type] = [];
-          var key = Object(_utils__WEBPACK_IMPORTED_MODULE_6__[/* getRandwords */ "a"])(); // this.state[key] = true
+          if (!__propsMap) this.state['__propsMap'][type] = [];
+          bindPropsMap(bindProps, this); // this.state[key] = true
 
           _wgtsStore__WEBPACK_IMPORTED_MODULE_5__[/* $w_store */ "a"].setCmp(type, key, true);
           this.setState({
-            __cmpList: this.state['__cmpList'][type].push(index)
+            __cmpList: this.state['__cmpList'][type].push(index),
+            __propsMap: this.state['__propsMap'][type].push(propsKey)
           });
-          console.log('__cmpList', __cmpList);
         }
       }, {
         key: "componentDidUpdate",

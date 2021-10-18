@@ -5,6 +5,7 @@ import {getRandwords} from './utils'
 
 function getId(type) {
   const getCmp = $w_store.getCmpList(type)
+  console.log('getCmp',type,getCmp)
   for(let i in getCmp){
     if(getCmp[i]){
       $w_store.setCmp(type,i,false)
@@ -25,7 +26,7 @@ export default function withInformation(targetCtx) {
         const { className,propsDefault } = this
         if(className){
           const id = getId(className)
-          console.log('getCmp',getCmp)
+          console.log('getCmp_id',id)
           for(let i in propsDefault){
             let key = className+'_'+i +'_' + id //getRandwords()
             $w_store.addListener(key,(val)=>{

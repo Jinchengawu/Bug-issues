@@ -42,6 +42,7 @@ class WgtsStore {
   }
   showEvent(){
     console.log('EventBus',EventBus)
+    console.log('this.wgts_store',this.wgts_store)
   }
   get(key){
     return this.wgts_store[key]

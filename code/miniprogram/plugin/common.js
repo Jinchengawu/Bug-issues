@@ -226,6 +226,7 @@ var WgtsStore = /*#__PURE__*/function () {
     key: "showEvent",
     value: function showEvent() {
       console.log('EventBus', _eventBus__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"]);
+      console.log('this.wgts_store', this.wgts_store);
     }
   }, {
     key: "get",

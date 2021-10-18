@@ -168,6 +168,7 @@ var inst = Component(Object(_tarojs_runtime__WEBPACK_IMPORTED_MODULE_2__["create
 
 function getId(type) {
   var getCmp = _wgtsStore__WEBPACK_IMPORTED_MODULE_6__[/* $w_store */ "a"].getCmpList(type);
+  console.log('getCmp', type, getCmp);
 
   for (var i in getCmp) {
     if (getCmp[i]) {
@@ -201,7 +202,7 @@ function withInformation(targetCtx) {
 
         if (className) {
           var id = getId(className);
-          console.log('getCmp', getCmp);
+          console.log('getCmp_id', id);
 
           var _loop = function _loop(i) {
             var key = className + '_' + i + '_' + id; //getRandwords()

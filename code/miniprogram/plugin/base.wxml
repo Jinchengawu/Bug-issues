@@ -61,6 +61,14 @@
   </scroll-view>
 </template>
 
+<template name="tmpl_0_navigator">
+  <navigator url="{{i.url}}" open-type="{{xs.b(i.openType,'navigate')}}" delta="{{xs.b(i.delta,1)}}" hover-class="{{xs.b(i.hoverClass,'navigator-hover')}}" hover-stop-propagation="{{xs.b(i.hoverStopPropagation,false)}}" hover-start-time="{{xs.b(i.hoverStartTime,50)}}" hover-stay-time="{{xs.b(i.hoverStayTime,600)}}" bindsuccess="eh" bindfail="eh" bindcomplete="eh" target="{{xs.b(i.target,'self')}}" app-id="{{i.appId}}" path="{{i.path}}" extra-data="{{i.extraData}}" version="{{xs.b(i.version,'version')}}" style="{{i.st}}" class="{{i.cl}}" bindtap="eh"  id="{{i.uid}}">
+    <block wx:for="{{i.cn}}" wx:key="uid">
+      <template is="{{xs.e(cid+1)}}" data="{{i:item,l:l}}" />
+    </block>
+  </navigator>
+</template>
+
 <template name="tmpl_0_static-image">
   <image src="{{i.src}}" mode="{{xs.b(i.mode,'scaleToFill')}}" lazy-load="{{xs.b(i.lazyLoad,false)}}" webp="{{xs.b(i.webp,false)}}" show-menu-by-longpress="{{xs.b(i.showMenuByLongpress,false)}}" style="{{i.st}}" class="{{i.cl}}"  id="{{i.uid}}">
     <block wx:for="{{i.cn}}" wx:key="uid">

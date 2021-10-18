@@ -18,6 +18,11 @@ export default class Index extends Component {
     }, {
       name: 'C',
       value: '3'
+    }],
+    cmpList:[{
+      val:222
+    },{
+      val:333
     }]
   }
   constructor(props){
@@ -27,21 +32,29 @@ export default class Index extends Component {
       // $w_store.set('tData',t++)
       // console.log('setInterval',t)
       $w_store.showEvent()
-      $w_store.emit('Avatar_tData2',t++) 
-      
+      // $w_store.emit('Avatar_tData2',t++) 
+      this.setState({t:t})
     },3000)
     
   }
-
+  testCall(...arg){
+    console.log('testCall',...arg)
+  }
   render () {
     
     return (
       <View>
-        <avatar bindStore={this.bindOnly('avatar',0)} id='avatar1' tData={222}/>
+        {
+          this.state.cmpList.map((cmp,index)=>{
+            return <avatar bindStore={this.bindOnly('Avatar',index,{'tData2':cmp.val,'testCall':this.testCall})} />
+          })
+        }
+        <avatar bindStore={this.bindOnly('Avatar',0,['tData2'])} id='avatar1' tData={222}/>
         {this.state.list.map(item => {
           return <ListItem name={item.name} value={item.value} key={item.name} />
         })}
-        <avatar bindStore={this.bindOnly('avatar',1)}  id='avatar2' tData={222}/>
+        {this.state.t}
+        <avatar bindStore={this.bindOnly('Avatar',1,['tData2'])}  id='avatar2' tData={222}/>
       </View>
     )
   }
