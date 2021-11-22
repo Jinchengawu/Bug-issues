@@ -1,0 +1,58 @@
+.sp-goods-item {
+  background-color: #f5f5f5;
+  .goods-item {
+    &__hd {
+    }
+    &__bd {
+      border-radius: 0;
+      padding: 15px;
+      .goods-title {
+        font-size: 24px;
+        color: $color-primary-text;
+        @include multi-ellipsis(1);
+        // padding: 15px;
+      }
+      .goods-desc {
+        font-size: 24px;
+        color: $color-hint-text;
+        @include multi-ellipsis(2);
+      }
+
+      .goods-price {
+        line-height: 26px;
+        margin-top: 10px;
+      }
+
+      .promotions {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 14px;
+        .promotion-tag {
+          border: 1PX solid var(--color-primary);
+          color: var(--color-primary);
+          font-size: 22px;
+          border-radius: 4px;
+          padding: 0 4px;
+          line-height: 26px;
+          margin-right: 10px;
+        }
+      }
+
+      .bd-block {
+        display: flex;
+        justify-content: space-between;
+        &-lf {
+
+        }
+        &-rg {
+          .icon-shoucang-01 {
+            font-size: 34px;
+            color: #666;
+          }
+        }
+      }
+    }
+    &__ft {
+    }
+  }
+}

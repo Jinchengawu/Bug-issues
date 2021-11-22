@@ -1,0 +1,16 @@
+.sp-tag-bar {
+  width: 100%;
+  white-space: nowrap;
+  background: #fff;
+  .tag-item {
+    display: inline-block;
+    font-size: 26px;
+    color: $color-hint-text ;
+    margin: 0 10px;
+    &.active {
+      color: $color-primary-text;
+      font-size: 30px;
+      font-weight: 600;
+    }
+  }
+}

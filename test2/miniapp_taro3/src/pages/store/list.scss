@@ -1,0 +1,116 @@
+// 搜索栏高度
+$search-height: 90px;
+// 内容高度
+$content-height: 330px;
+// 定位高度
+$local-height: 162px;
+// 门店高度
+$store-height: 185px;
+// 头部高度
+$header-height: $content-height + $search-height;
+$bottom-height: 100px;
+
+// 收货地址高度
+$nodelivery-height: $header-height - $store-height;
+
+
+.page-store-list {
+  height: 100%;
+  box-sizing: border-box;
+  // /*  #ifdef  h5  */  
+  // padding-top: $navigate-height-h5;
+  // /*  #endif  */   
+  .search-block {
+    background: #fff;
+    padding: 15px 20px;
+    .main {
+      background: #eff0f1;
+      display: flex;
+      align-items: center;
+      height: 60px;
+      padding: 0 38px;
+      border-radius: 30px;
+      .filterArea {
+        width: 210px;
+        flex-shrink: 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-right: 27px;
+        .areaName {
+          width: 140px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 28px;
+          color: #111;
+        }
+        .icon-arrowDown {
+          color: #666;
+        }
+        &::after {
+          content: '';
+          position: absolute;
+          height: 80%;
+          border-right: 2px solid #9d9d9d;
+          top: 50%;
+          right: 17px;
+          transform: translateY(-50%);
+        }
+      }
+      .searchInput {
+        flex: 1;
+      }
+    }
+  }
+
+  .block-content {
+    padding: 20px 40px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    .block-hd {
+      color: #666;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    .location-wrap {
+      display:flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .location-address {
+      color: #111;
+      font-size: 28px;
+      padding-right: 40px;
+    }
+    .btn-location {
+      width: 260px;
+      color: var(--color-primary);
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .bottom {
+    position: fixed;
+    width: 100%;
+    height: $bottom-height;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.14);
+    .img {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      margin-right: 32px;
+    }
+    .iconfont {
+      margin-left: 32px;
+    }
+  }
+}
